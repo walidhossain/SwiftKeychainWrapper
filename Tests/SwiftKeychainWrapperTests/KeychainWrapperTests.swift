@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import SwiftKeychainWrapper
+@testable import SwiftKeychainWrapper
 
 class KeychainWrapperTests: XCTestCase {
     
