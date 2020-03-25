@@ -60,36 +60,13 @@ KeychainWrapper.standard.set("Some String", forKey: "myKey", withAccessibility: 
 
 ## Installation
 
-#### CocoaPods
-You can use [CocoaPods](http://cocoapods.org/) to install SwiftKeychainWrapper by adding it to your `Podfile`:
+#### Swift Package
+URLImage is a ```Swift Package``` and you can install it with Xcode 11:
 
-``` ruby
-use_frameworks!
-platform :ios, '8.0'
+Copy ```https://github.com/walidhossain/SwiftKeychainWrapper```  URL from github;
 
-target 'target_name' do
-   pod 'SwiftKeychainWrapper'
-end
-```
-
-To use the keychain wrapper in your app, import SwiftKeychainWrapper into the file(s) where you want to use it.
-
-``` swift
-import SwiftKeychainWrapper
-```
-
-#### Carthage
-You can use [Carthage](https://github.com/Carthage/Carthage) to install SwiftKeychainWrapper by adding it to your `Cartfile`.
-
-Swift 3.0:
-```
-github "jrendel/SwiftKeychainWrapper" ~> 3.0
-```
-
-Swift 2.3:
-```
-github "jrendel/SwiftKeychainWrapper" == 2.1.1
-```
+Open File/Swift Packages/Add Package Dependency... in Xcode 11;
+Paste the URL and follow steps.
 
 #### Manually
 Download and drop ```KeychainWrapper.swift``` and ```KeychainItemAcessibility.swift``` into your project.
